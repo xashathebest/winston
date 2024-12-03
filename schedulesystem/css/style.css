@@ -1,0 +1,73 @@
+#sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f8f9fa;
+    padding-top: 20px;
+}
+
+#sidebar a {
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    display: block;
+}
+
+#sidebar a:hover {
+    background-color: #ddd;
+}
+
+.main-content {
+    margin-left: 260px;
+    padding: 20px;
+}
+
+.message {
+    margin-top:20px;
+}
+
+
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group select, .form-group input {
+    margin-top: 5px;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.form-container {
+    width: 50%; /* Adjust the form width */
+    padding-left: 20px; /* Space between the image and form */
+}
+
+.photologin{
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.darkblue{
+    background-color: #4939BB;
+    color: #fff;
+}
